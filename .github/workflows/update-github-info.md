@@ -14,7 +14,7 @@ tools:
   edit:
 
 network:
-  allowed: [github.blog, github.com]
+  allowed: [github.blog, github.com, awesome-copilot.github.com]
 
 safe-outputs:
   create-pull-request:
@@ -32,6 +32,7 @@ Keep the GitHub Info website content current and useful for Mona.
 2. Use web-fetch to read:
    - https://github.blog/latest/
    - https://github.blog/changelog/
+  - https://awesome-copilot.github.com/workflows/
 3. Identify only recent, useful updates that fit Mona's editorial angle. Keep summaries short and practical, prefer guidance that helps developers learn GitHub faster, and preserve official source links for claims from the GitHub Blog or GitHub Changelog.
 4. Use the edit tool to update `site/content/github-info.md` with accurate, concise content based on the repository notes and fetched sources. Preserve the existing structure and do not change unrelated files.
 5. Review the resulting diff for accuracy, source links, scope, and clear writing. If there is no meaningful update, do not make a speculative change and do not open a pull request.
