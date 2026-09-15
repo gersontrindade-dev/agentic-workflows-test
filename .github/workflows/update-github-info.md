@@ -7,6 +7,10 @@ on:
 permissions:
   contents: read
 
+engine:
+  id: copilot
+  model: gpt-5.4
+
 tools:
   github:
     toolsets: [repos]
